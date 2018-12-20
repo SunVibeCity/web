@@ -9,9 +9,9 @@
 
 ### Build
 ```
-cd nginx-html
-docker build -t web-deploy .
-docker tag web-deploy sunvibecity/web-deploy
+cd nginx-html && \
+docker build -t web-deploy . && \
+docker tag web-deploy sunvibecity/web-deploy && \
 docker push sunvibecity/web-deploy
 ```
 
